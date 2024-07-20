@@ -1,8 +1,11 @@
 let currentIndex=0
 let wordsData = [];
 let wordsKeys = [];
-loading();
-displayWord();
+
+window.onload = async function(){
+    await loading();
+    displayWord();
+}
 
 async function loading() {
     try{
