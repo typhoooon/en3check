@@ -24,12 +24,17 @@
     </head>
     <body>
         <div id="name" class="container">
-        <h1>单词默写</h1>
-        <div class="mb-3">
-            <input type="text" id="wordInput" placeholder="输入单词"/>
-        </div>
-        <button class="button" onclick="checkWord()">提交</button>
-        <p id="result">结果</p> 
+            <h1>单词默写</h1>
+            <div class="mb-3">
+                <input type="text" id="wordInput" placeholder="输入单词"/>
+            </div>
+            <p></p> 
+            <p id='wordDisplay'>中文意思</p> 
+            <p></p> 
+            <button class="button" onclick="prevWord()">上一个</button>
+            <button class="button" onclick="checkWord()">提交</button>
+            <button class="button" onclick="nextWord()">下一个</button>
+            <p id="result">结果</p> 
         </div>
 
     <script src="script.js" charset="utf-8"></script>
