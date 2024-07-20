@@ -8,14 +8,20 @@ window.onload = async function(){
 }
 
 async function loading() {
-    try{
+    try {
         const response = await fetch('words.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error ${response.status}`);
+        }
         const data = await response.json();
         wordsData = data.words;
-        wordsKeys = Object,keys(wordsData);
-        result.textContent='loading successfully'
-    }catch(error){
-        result.textContent='loading failed'
+        wordsKeys = Object.keys(wordsData);
+        result.textContent = 'Loading successful';
+        result.style.color='black';
+    } catch (error) {
+        console.error('Error loading JSON file:', error);
+        result.textContent = 'Loading failed';
+        result.style.color='red';
     }
 }
 
@@ -30,7 +36,7 @@ function checkWord(){
     const result = document.getElementById('result');
     const currentWordKey = wordsKeys[currentIndex];
 
-    if(wordInput===currentWordKey){
+    if(wordInput === currentWordKey.toLowerCase()){
         result.textContent = `${wordInput} 正确`;
         result.style.color='green';
     }
@@ -44,6 +50,9 @@ function nextWord(){
     if(currentIndex < wordsKeys.length - 1){
         currentIndex++;
         displayWord();
+        wordInput.value="";
+        result.textContent="结果";
+        result.style.color="black";
     }
 }
 
@@ -51,5 +60,8 @@ function prevWord(){
     if(currentIndex > 0){
         currentIndex--;
         displayWord();
+        wordInput.value="";
+        result.textContent="结果";
+        result.style.color="black";
     }
 }
