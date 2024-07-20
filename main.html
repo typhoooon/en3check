@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>encheck</title>
+        <style type="text/css" media="screen">
+            body{font-family: Arial, Helvetica, sans-serif;}
+            .container{
+                max-width: 600px;
+                margin: 50px auto;
+                text-align: center;
+                padding: 20px;
+            }
+            input{
+                padding: 10px;
+                font-size: 16px;
+            }
+            button{
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="name" class="container">
+        <h1>单词默写</h1>
+        <div class="mb-3">
+            <input type="text" id="wordInput" placeholder="输入单词"/>
+        </div>
+        <button class="button" onclick="checkWord()">提交</button>
+        <p id="result">结果</p> 
+        </div>
+
+    <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
