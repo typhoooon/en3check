@@ -4,37 +4,91 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>encheck</title>
-        <style type="text/css" media="screen">
-            body{font-family: Arial, Helvetica, sans-serif;}
-            .container{
-                max-width: 600px;
-                margin: 50px auto;
-                text-align: center;
-                padding: 20px;
-            }
-            input{
-                padding: 10px;
-                font-size: 16px;
-            }
-            button{
-                padding: 10px 20px;
-                font-size: 16px;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
     </head>
+
     <body>
-        <div id="name" class="container">
-            <h1>单词默写</h1>
-            <div class="mb-3">
-                <input type="text" id="wordInput" placeholder="输入单词"/>
+        <div id="mainContent" class="mainContent">
+            <div id="name" class="container">
+                <h1>单词默写</h1>
+                <div class="mb-3">
+                    <input type="text" id="wordInput" placeholder="输入单词"/>
+                </div>
+                <p></p> 
+                <p id='wordDisplay'>中文意思</p> 
+                <p></p> 
+                <button class="button" onclick="prevWord()">上一个</button>
+                <button class="button" onclick="checkWord()" id="checkBtn">提交</button>
+                <button class="button" onclick="nextWord()">下一个</button>
+                <p id="result">结果</p> 
+
+                <button class="button" id="settingsBtn" onclick="Settings()">Settings</button>
             </div>
-            <p></p> 
-            <p id='wordDisplay'>中文意思</p> 
-            <p></p> 
-            <button class="button" onclick="prevWord()">上一个</button>
-            <button class="button" onclick="checkWord()">提交</button>
-            <button class="button" onclick="nextWord()">下一个</button>
-            <p id="result">结果</p> 
+        </div>
+
+        <div id="overlay" class="overlay"></div>
+
+        <div id="drawer" class="drawer">
+            <div class="drawerContent">
+               <h2>Settings</h2> 
+                <button class="button" onclick="applySettings()">完成</button>
+            </div>
+
+            <form action="index_submit" method="get" accept-charset="utf-8">
+               <label>
+                   <input type="radio" id="for"/> 顺序模式
+                   <input type="radio" id="random"/> 随机模式
+               </label> 
+               <p></p>
+
+               <label>
+                    <select name="bookSelect" id="bookSelect" multiple size="1">
+                        <option value="book1">book1</option>
+                        <option value="book2">book2</option>
+                    </select>
+
+               </label>
+
+               <p></p>
+               <label id="listLabel" class="container">
+                   <li>
+                       <input type="checkbox" name="list1" id="list1"> list1
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list2" id="list2"> list2
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list3" id="list3"> list3
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list4" id="list4"> list4
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list5" id="list5"> list5
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list6" id="list6"> list6
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list7" id="list7"> list7
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list8" id="list8"> list8
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list9" id="list9"> list9
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list10" id="list10"> list10
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list11" id="list11"> list11
+                   </li>
+                   <li>
+                       <input type="checkbox" name="list12" id="list12"> list12
+                   </li>
+               </label>
+            </form>
         </div>
 
     <script src="script.js" charset="utf-8"></script>

@@ -1,8 +1,615 @@
 {
-    "words":{
-        "apple":"苹果",
-        "banana":"香蕉",
-        "cherry":"樱桃",
-        "date":"枣"
-    }
+    "list1":[
+        {   
+            "word":"apple",
+            "exp":"苹果"
+        },
+        {
+            "word":"banana",
+            "exp":"香蕉"
+        },
+        {
+            "word":"cherry",
+            "exp":"樱桃"
+        },
+        {
+            "word":"date",
+            "exp":"枣"
+        }
+    ],
+    "list2":[
+        {
+            "word":"ambition",
+            "exp":"野心"
+        }
+
+    ],
+    "list3":[
+        {
+            "word":"freshman",
+            "exp":"新人"
+        }
+    ],
+    "list12":[
+        {
+            "word":"The distinction between art and entertainment",
+            "exp":"艺术与娱乐之间的区别"
+        },
+        {
+            "word":"a musician of distinction",
+            "exp":"杰出的音乐家"
+        },
+        {
+            "word":"The distinctive voice",
+            "exp":"独特的嗓音"
+        },
+        {
+            "word":"Distinguish the right from the wrong",
+            "exp":"辨别是非"
+        },
+        {
+            "word":"distinguish himself by some brilliant action",
+            "exp":"一举成名"
+        },
+        {
+            "word":"a distinguished cartoonist",
+            "exp":"著名的漫画家"
+        },
+        {
+            "word":"distort  reality",
+            "exp":"歪曲事实                           "
+        },
+        {
+            "word":"distract him from study",
+            "exp":"学习分心"
+        },
+        {
+            "word":"distractions from the show",
+            "exp":"表演中的娱乐节目                   "
+        },
+        {
+            "word":"help students in distress ",
+            "exp":"救助抑郁的学生"
+        },
+        {
+            "word":"distribute free printed materials",
+            "exp":"分发免费印刷品                 "
+        },
+        {
+            "word":"cause a political disturbance",
+            "exp":"引发了一场政治骚乱"
+        },
+        {
+            "word":"serious emotional disturbance",
+            "exp":"严重的精神焦虑                 "
+        },
+        {
+            "word":"theory and practice sometimes diverge",
+            "exp":"理论和现实有时相悖"
+        },
+        {
+            "word":"divergence of opinion within the team",
+            "exp":"团队内部意见的分歧"
+        },
+        {
+            "word":"diverse cultures",
+            "exp":"多样的文化"
+        },
+        {
+            "word":"her interests diversified",
+            "exp":"她的兴趣变得五花八门               "
+        },
+        {
+            "word":"divert his attention",
+            "exp":"转移注意力"
+        },
+        {
+            "word":"divert public fund to their private purposes",
+            "exp":"把公款挪作私用                    "
+        },
+        {
+            "word":"divert calls",
+            "exp":"来电转接"
+        },
+        {
+            "word":"diversion for holiday",
+            "exp":"假日娱乐                            "
+        },
+        {
+            "word":"a diverting game",
+            "exp":"娱乐的游戏"
+        },
+        {
+            "word":"divine gifts",
+            "exp":"上天的恩赐                        "
+        },
+        {
+            "word":"divine the needs of consumers",
+            "exp":"推测消费者的需求"
+        },
+        {
+            "word":"a divisive force against peace",
+            "exp":"破坏和平的分裂力量                 "
+        },
+        {
+            "word":"divulge secrets",
+            "exp":"泄露秘密"
+        },
+        {
+            "word":"docile children",
+            "exp":"听话的孩子                         "
+        },
+        {
+            "word":"illegally dock the worker’s salaries",
+            "exp":"非法克扣工人工资"
+        },
+        {
+            "word":"doctrinaire teachers",
+            "exp":"教条主义的老师                    "
+        },
+        {
+            "word":"a strict doctrine",
+            "exp":"严格的教义"
+        },
+        {
+            "word":"document stories from life",
+            "exp":"记录生活的故事                     "
+        },
+        {
+            "word":"my dogged decision",
+            "exp":"我意已决"
+        },
+        {
+            "word":"break down the dogma of centuries",
+            "exp":"打破数百年的教条                   "
+        },
+        {
+            "word":"dogmatic leaders",
+            "exp":"固执己见的领导"
+        },
+        {
+            "word":"dole out food",
+            "exp":"发放食物                          "
+        },
+        {
+            "word":"a doleful cry",
+            "exp":"忧伤的呼声"
+        },
+        {
+            "word":"cross different domains",
+            "exp":"横跨不同的领域                    "
+        },
+        {
+            "word":"sales in the domestic market",
+            "exp":"国内市场的销售"
+        },
+        {
+            "word":"domestic cat",
+            "exp":"家猫                               "
+        },
+        {
+            "word":"domesticate horses",
+            "exp":"驯养马匹"
+        },
+        {
+            "word":"a dominant crop",
+            "exp":"主要作物                          "
+        },
+        {
+            "word":"the dominating status of Chinese economy",
+            "exp":"中国经济支配地位"
+        },
+        {
+            "word":"a domineering king",
+            "exp":"专横跋扈的国王                     "
+        },
+        {
+            "word":"donate large sums to charity",
+            "exp":"向慈善机构捐款"
+        },
+        {
+            "word":"donate blood",
+            "exp":"献血                               "
+        },
+        {
+            "word":"organ donors",
+            "exp":"器官捐赠者"
+        },
+        {
+            "word":"warnings of incoming doom",
+            "exp":"即将到来的厄运的警告              "
+        },
+        {
+            "word":"dormant volcano",
+            "exp":"休眠火山"
+        },
+        {
+            "word":"a dour expression on her face",
+            "exp":"她严厉的表情                      "
+        },
+        {
+            "word":"Downcast eyes",
+            "exp":"沮丧的眼神"
+        },
+        {
+            "word":"Downplay the danger of transgenic food",
+            "exp":"低估转基因食品的危害"
+        },
+        {
+            "word":"during in economic downturn",
+            "exp":"在经济衰退时期"
+        },
+        {
+            "word":"A drab movie",
+            "exp":"无趣的电影                       "
+        },
+        {
+            "word":"Draconian food safety rules",
+            "exp":"严格的食品安全法则"
+        },
+        {
+            "word":"Draft a contract",
+            "exp":"草拟一份合同                    "
+        },
+        {
+            "word":"A man trying to avoid the draft",
+            "exp":"试图逃避征兵的男子"
+        },
+        {
+            "word":"Drain water out of the boat",
+            "exp":"给他们小船排水                     "
+        },
+        {
+            "word":"Drain all their energy",
+            "exp":"精疲力竭"
+        },
+        {
+            "word":"city’s subsurface drainage",
+            "exp":"城市的地下排水系统             "
+        },
+        {
+            "word":"Dramatic fall of the former giant Nokia",
+            "exp":"昔日巨人诺基亚的突然衰落 "
+        },
+        {
+            "word":"Dramatic winning of the World Cup",
+            "exp":"激动人心的世界杯胜利           "
+        },
+        {
+            "word":"Dramatize his little story",
+            "exp":"大势渲染他的那点小事"
+        },
+        {
+            "word":"A drastic social change",
+            "exp":"剧烈的社会巨变                     "
+        },
+        {
+            "word":"Make up for its drawback",
+            "exp":"弥补缺点"
+        },
+        {
+            "word":"Dread the birth would take a long time",
+            "exp":"害怕生产过程会持续很久"
+        },
+        {
+            "word":"dreadful warfare",
+            "exp":"可怕的战争"
+        },
+        {
+            "word":"The rain drenched my clothes",
+            "exp":"衣服被雨淋透了                     "
+        },
+        {
+            "word":"The drift of the her conversation",
+            "exp":"她谈话的大意"
+        },
+        {
+            "word":"A droll magician",
+            "exp":"有趣的魔术师                      "
+        },
+        {
+            "word":"Droop her head",
+            "exp":"耷拉着头"
+        },
+        {
+            "word":"Survive the drought season",
+            "exp":"度过旱季                           "
+        },
+        {
+            "word":"The drudgery of much housework",
+            "exp":"家庭作业的苦差事"
+        },
+        {
+            "word":"Forbid dual citizenship",
+            "exp":"禁止双重国籍                      "
+        },
+        {
+            "word":"a man of the dubious character",
+            "exp":"一个不靠谱的人"
+        },
+        {
+            "word":"a dull lecture that puts me to sleep",
+            "exp":"让我昏昏欲睡的沉闷讲座"
+        },
+        {
+            "word":"a a dull red color",
+            "exp":"暗红色"
+        },
+        {
+            "word":"dumbfound the expert",
+            "exp":"让专家目瞪口呆                     "
+        },
+        {
+            "word":"dump rubbish into rivers",
+            "exp":"向河中倾倒垃圾"
+        },
+        {
+            "word":"dump leather shoes into EU",
+            "exp":"向欧盟倾销皮鞋            "
+        },
+        {
+            "word":"dupe people into buying the unneeded services",
+            "exp":"诱骗人们购买不需要的服务"
+        },
+        {
+            "word":"duplicate his success",
+            "exp":"复制他的成功"
+        },
+        {
+            "word":"duplicate the tape",
+            "exp":"翻录磁带                           "
+        },
+        {
+            "word":"a duplicate copy of passport",
+            "exp":"护照的复印件"
+        },
+        {
+            "word":"a duplicitous spy",
+            "exp":"奸诈的特务                         "
+        },
+        {
+            "word":"the duration of the cold war",
+            "exp":"冷战期间"
+        },
+        {
+            "word":"a durable memory",
+            "exp":"持久的回忆                         "
+        },
+        {
+            "word":"native dwellers of the island",
+            "exp":"岛上的原住民"
+        },
+        {
+            "word":"dwarfed by the Chinese mega-cities",
+            "exp":"与中国大城市比而显得相形见绌"
+        },
+        {
+            "word":"dwell on your past",
+            "exp":"沉溺于过去"
+        },
+        {
+            "word":"a dwindling population",
+            "exp":"减少的人口                         "
+        },
+        {
+            "word":"dye her hair brown",
+            "exp":"把头发染成棕色"
+        },
+        {
+            "word":"the dynamic mind of a young boy",
+            "exp":"那孩子活跃的想法                 "
+        },
+        {
+            "word":"the dynamic social movement",
+            "exp":"充满变数的社会运动"
+        },
+        {
+            "word":"the dynamics of the social progress",
+            "exp":"社会进步的动力                     "
+        },
+        {
+            "word":"start business in earnest",
+            "exp":"隆重开业"
+        },
+        {
+            "word":"make an earnest effort",
+            "exp":"认真努力                           "
+        },
+        {
+            "word":"make a promise in earnest",
+            "exp":"诚恳的祝愿"
+        },
+        {
+            "word":"the earthly pursuit of the money",
+            "exp":"对钱财的世俗追求               "
+        },
+        {
+            "word":"host an ebullient party for friends",
+            "exp":"办一次兴致昂扬的朋友聚会          "
+        },
+        {
+            "word":"have an eccentric character",
+            "exp":"性格古怪"
+        },
+        {
+            "word":"an eclectic collection of paintings",
+            "exp":"不拘一格的油画收藏"
+        },
+        {
+            "word":"eclipse the old record",
+            "exp":"让老的记录相形见绌"
+        },
+        {
+            "word":"echo the traditional way",
+            "exp":"效仿传统的做法                     "
+        },
+        {
+            "word":"maintain the ecological balance",
+            "exp":"保持生态平衡"
+        },
+        {
+            "word":"a small pond ecology",
+            "exp":"小池塘的生态                       "
+        },
+        {
+            "word":"an economical buying plan",
+            "exp":"经济的采购计划"
+        },
+        {
+            "word":"economical usage of words",
+            "exp":"用词简洁                           "
+        },
+        {
+            "word":"economize limited resources",
+            "exp":"节省有限资源"
+        },
+        {
+            "word":"ecstatic upon receiving a full scholarship",
+            "exp":"获得全额奖学金欣喜若狂"
+        },
+        {
+            "word":"love brings an ecstasy",
+            "exp":"爱情让人欣喜若狂"
+        },
+        {
+            "word":"edible meat",
+            "exp":"食用肉"
+        },
+        {
+            "word":"the edifice of Communism",
+            "exp":"共产主义的愿景"
+        },
+        {
+            "word":"an edifying book",
+            "exp":"一本教化人的书"
+        },
+        {
+            "word":"stories of an editorial office",
+            "exp":"编辑部的故事"
+        },
+        {
+            "word":"a memory effaced by the time",
+            "exp":"被时间抹去的记忆                  "
+        },
+        {
+            "word":"efficacious Chinese medicine",
+            "exp":"灵验的中药"
+        },
+        {
+            "word":"an effusion of sadness",
+            "exp":"宣泄悲伤"
+        },
+        {
+            "word":"be effusive in the praise",
+            "exp":"赞不绝口（热情地赞扬）"
+        },
+        {
+            "word":"an egalitarian society",
+            "exp":"人人平等的社会"
+        },
+        {
+            "word":"tolerate his growing ego",
+            "exp":"忍受他膨胀的内心"
+        },
+        {
+            "word":"egotistic pursuit of interest",
+            "exp":"追求个人利益"
+        },
+        {
+            "word":"egregious child abuse",
+            "exp":"恶性的虐待恶童"
+        },
+        {
+            "word":"eject his wife from the family",
+            "exp":"把他妻子逐出家门"
+        },
+        {
+            "word":"an elaborate dress design",
+            "exp":"精细的服装设计"
+        },
+        {
+            "word":"elaborate on his theory",
+            "exp":"细述他的计划"
+        },
+        {
+            "word":"years elapse quickly",
+            "exp":"时光飞逝"
+        },
+        {
+            "word":"an elastic explanation of the rules",
+            "exp":"对规则灵活的解释"
+        },
+        {
+            "word":"elated upon the arrival of her new baby girl",
+            "exp":"为新生女儿高兴"
+        },
+        {
+            "word":"elevate his social position",
+            "exp":"提高社会地位"
+        },
+        {
+            "word":"an elevated dream",
+            "exp":"崇高的梦想"
+        },
+        {
+            "word":"elicit his hidden fears",
+            "exp":"唤出了内心的恐惧"
+        },
+        {
+            "word":"eliminate errors",
+            "exp":"根除错误"
+        },
+        {
+            "word":"eliminate his competitor",
+            "exp":"淘汰竞争对手                   "
+        },
+        {
+            "word":"the sport elites",
+            "exp":"运动精英"
+        },
+        {
+            "word":"the elitist education system",
+            "exp":"精英主义教育"
+        },
+        {
+            "word":"a magic elixir",
+            "exp":"神奇的药水"
+        },
+        {
+            "word":"the earth travels in an ellipse",
+            "exp":"地球的轨道是个椭圆"
+        },
+        {
+            "word":"have the effrontery to ask for money",
+            "exp":"厚颜无耻的来要钱"
+        },
+        {
+            "word":"an elliptical poetic film",
+            "exp":"一部晦涩的叙事诗般的电影"
+        },
+        {
+            "word":"the elocutions of a language",
+            "exp":"一门语言的朗诵技巧 "
+        },
+        {
+            "word":"Elongate the working time",
+            "exp":"延长工作时间"
+        },
+        {
+            "word":"his eloquent statement against the child labors",
+            "exp":"反对童工的有力陈词"
+        },
+        {
+            "word":"elucidate complicated concepts",
+            "exp":"阐释复杂的概念"
+        },
+        {
+            "word":"Success eluded him for long",
+            "exp":"与成功错过很久"
+        },
+        {
+            "word":"An eluding concept",
+            "exp":"难以理解的概念"
+        }
+    ]
 }

@@ -1,6 +1,10 @@
+let data=[]
 let currentIndex=0
 let wordsData = [];
-let wordsKeys = [];
+//let wordsKeys = [];
+let bookSelect = 0;
+let listSelect = [];
+let wordList = [];
 
 window.onload = async function(){
     await loading();
@@ -13,9 +17,9 @@ async function loading() {
         if (!response.ok) {
             throw new Error(`HTTP error ${response.status}`);
         }
-        const data = await response.json();
-        wordsData = data.words;
-        wordsKeys = Object.keys(wordsData);
+        data = await response.json();
+        wordsData = data.list1;
+        //wordsKeys = Object.keys(wordsData);
         result.textContent = 'Loading successful';
         result.style.color='black';
     } catch (error) {
@@ -25,18 +29,24 @@ async function loading() {
     }
 }
 
+const wordDisplay = document.getElementById('wordDisplay');
 function displayWord() {
-    const wordDisplay = document.getElementById('wordDisplay');
-    const currentWordKey = wordsKeys[currentIndex];
-    wordDisplay.textContent=wordsData[currentWordKey];
+    let currentWordKey=wordsData[currentIndex];
+    //const currentWord=currentWordKey.word;
+    const currentWordMeaning=currentWordKey.exp;
+    wordDisplay.textContent =`中文: ${currentWordMeaning}`; 
+    result.textContent="结果";
+    result.style.color="black";
+    wordInput.value="";
 }
 
 function checkWord(){
     const wordInput = document.getElementById('wordInput').value.toLowerCase();
     const result = document.getElementById('result');
-    const currentWordKey = wordsKeys[currentIndex];
+    const currentWordKey = wordsData[currentIndex];
+    const currentWord=currentWordKey.word;
 
-    if(wordInput === currentWordKey.toLowerCase()){
+    if(wordInput === currentWord.toLowerCase()){
         result.textContent = `${wordInput} 正确`;
         result.style.color='green';
     }
@@ -47,12 +57,9 @@ function checkWord(){
 }
 
 function nextWord(){
-    if(currentIndex < wordsKeys.length - 1){
+    if(currentIndex < wordsData.length - 1){
         currentIndex++;
         displayWord();
-        wordInput.value="";
-        result.textContent="结果";
-        result.style.color="black";
     }
 }
 
@@ -60,8 +67,90 @@ function prevWord(){
     if(currentIndex > 0){
         currentIndex--;
         displayWord();
-        wordInput.value="";
-        result.textContent="结果";
-        result.style.color="black";
+    }
+}
+
+const drawer = document.getElementById("drawer");
+const settingsBtn = document.getElementById("settingsBtn")
+const mainContent = document.getElementById("mainContent")
+const overlay = document.getElementById('overlay');
+
+function Settings() {
+    drawer.classList.toggle("open");
+    overlay.classList.toggle("show");
+    mainContent.classList.toggle("blurred");
+}
+
+function closeDrawer() {
+    drawer.classList.remove("open");
+    overlay.classList.remove("show");
+    mainContent.classList.remove("blurred");
+}
+
+async function applySettings() {
+    const wordListLabel = document.getElementById("listLabel");
+    let wordListBoxes = wordListLabel.querySelectorAll('input[type="checkbox"]');
+    wordList = [];
+    for(let i=0;i < wordListBoxes.length;i++){
+        if(wordListBoxes[i].checked){
+            wordList.push(wordListBoxes[i].name);
+        }
+    }
+    console.log(wordList);
+
+    document.getElementById("checkBtn").focus();
+    closeDrawer();
+    currentIndex=0;
+    await updateWordsData();
+    //await loading();
+    displayWord();
+}
+
+async function updateWordsData() {
+    wordsData = [];
+    for(let i of wordList){
+    //console.log(typeof i)
+        for(let j of data[i]){
+            wordsData.push(j); 
+            console.log(j)
+        }
+    }
+}
+
+document.addEventListener('keydown', handleKeydown);
+
+function handleKeydown(event) {
+    switch (event.key) {
+        case '/':
+            event.preventDefault();
+
+            const activeElement = document.activeElement;
+
+            if (activeElement.tagName.toLowerCase() !== 'input') {
+                const inputElements = document.querySelectorAll('input');
+                if (inputElements.length > 0) {
+                    inputElements[0].focus();
+                }
+            }
+            break;
+
+        case '?':
+            alert("提示：左右键切换单词，/键快速定位输入框, ?键打开提示");
+            break;
+
+        case 'Enter':
+            checkWord();
+            break;
+
+        case 'ArrowLeft':
+            prevWord();
+            break;
+
+        case 'ArrowRight':
+            nextWord();
+            break;
+
+        default:
+            break;
     }
 }
