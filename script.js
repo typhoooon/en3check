@@ -5,6 +5,7 @@ let wordsData = [];
 let bookSelect = 0;
 let listSelect = [];
 let wordList = [];
+let tryCount=0;
 
 window.onload = async function(){
     await loading();
@@ -49,10 +50,17 @@ function checkWord(){
     if(wordInput === currentWord.toLowerCase()){
         result.textContent = `${wordInput} 正确`;
         result.style.color='green';
+        tryCount=0;
     }
     else{
-        result.textContent = `${wordInput} 错误`;
         result.style.color='red';
+        tryCount++;
+        if(tryCount<3){
+            result.textContent = `${wordInput} 错误`;
+        }
+        else{
+            result.textContent = `错误!  答案是：${currentWord} `;
+        }
     }
 }
 
@@ -60,6 +68,7 @@ function nextWord(){
     if(currentIndex < wordsData.length - 1){
         currentIndex++;
         displayWord();
+        tryCount=0;
     }
 }
 
@@ -67,6 +76,7 @@ function prevWord(){
     if(currentIndex > 0){
         currentIndex--;
         displayWord();
+        tryCount=0;
     }
 }
 
