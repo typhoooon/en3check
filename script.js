@@ -6,6 +6,7 @@ let bookSelect = 0;
 let listSelect = [];
 let wordList = [];
 let tryCount=0;
+let modeSelect=0;
 
 window.onload = async function(){
     await loading();
@@ -85,7 +86,7 @@ const settingsBtn = document.getElementById("settingsBtn")
 const mainContent = document.getElementById("mainContent")
 const overlay = document.getElementById('overlay');
 
-function Settings() {
+function openDrawer() {
     drawer.classList.toggle("open");
     overlay.classList.toggle("show");
     mainContent.classList.toggle("blurred");
@@ -99,6 +100,15 @@ function closeDrawer() {
 
 async function applySettings() {
     const wordListLabel = document.getElementById("listLabel");
+    //modeSelect = document.getElementById("modeSelect").value;
+
+    let modeSelectElements = document.querySelectorAll('input[name="mode"]');
+    modeSelectElements.forEach((element) => {
+        if (element.checked) {
+            modeSelect = element.value;
+        }
+    });
+
     let wordListBoxes = wordListLabel.querySelectorAll('input[type="checkbox"]');
     wordList = [];
     for(let i=0;i < wordListBoxes.length;i++){
@@ -124,6 +134,10 @@ async function updateWordsData() {
             wordsData.push(j); 
             console.log(j)
         }
+    }
+    //console.log(modeSelect)
+    if(modeSelect === "1"){
+        wordsData = Array.from(wordsData).sort(() => Math.random() - 0.5);
     }
 }
 

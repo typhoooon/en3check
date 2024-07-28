@@ -48,6 +48,7 @@ button{
 
 .drawerContent {
     padding: 20px;
+    text-align: center;
 }
 
 .overlay {
@@ -63,4 +64,11 @@ button{
 
 .overlay.show {
     display: block;
+}
+
+.config{
+    max-width: 500px;
+    margin: 0px auto 5px;
+    text-align: center;
+    padding: 10px;
 }

@@ -30,6 +30,580 @@
             "exp":"新人"
         }
     ],
+    "list5":[
+        {
+            "word":"Bolster her hope",
+            "exp":"支撑她的希望"
+        },
+        {
+            "word":"Bolt the door",
+            "exp":"把门插上"
+        },
+        {
+            "word":"After the horse bolted",
+            "exp":"马跑了之后"
+        },
+        {
+            "word":"A bombastic politician",
+            "exp":"夸夸其谈的政客"
+        },
+        {
+            "word":"The bondage of slavery",
+            "exp":"奴隶制的束缚"
+        },
+        {
+            "word":"Taxation on bonus income",
+            "exp":"奖金所得纳税"
+        },
+        {
+            "word":"The trick boomeranged",
+            "exp":"耍花招结果适得其反"
+        },
+        {
+            "word":"A boon for food lovers",
+            "exp":"吃货的福音"
+        },
+        {
+            "word":"Boost the economy",
+            "exp":"推动经济"
+        },
+        {
+            "word":"Reduce the boredom of flight",
+            "exp":"减轻飞行时的厌倦"
+        },
+        {
+            "word":"The border between the two nations",
+            "exp":"两国之间的边界"
+        },
+        {
+            "word":"border on crazy",
+            "exp":"近乎疯狂"
+        },
+        {
+            "word":"botanical gardens",
+            "exp":"植物园"
+        },
+        {
+            "word":"botch his job",
+            "exp":"把工作搞砸"
+        },
+        {
+            "word":"bothering noise",
+            "exp":"烦心的噪声"
+        },
+        {
+            "word":"across the national boundaries",
+            "exp":"跨越国家的边界"
+        },
+        {
+            "word":"a bountiful harvest of fruits",
+            "exp":"水果大丰收"
+        },
+        {
+            "word":"the modern bourgeois society",
+            "exp":"当代资本主义社会"
+        },
+        {
+            "word":"a bout of fever",
+            "exp":"一阵发烧"
+        },
+        {
+            "word":"boycott Japanese cars",
+            "exp":"抵制日本汽车"
+        },
+        {
+            "word":"brag for attention",
+            "exp":"哗众取宠"
+        },
+        {
+            "word":"a shameless braggart",
+            "exp":"不知羞耻的吹牛者"
+        },
+        {
+            "word":"open a new branch store",
+            "exp":"开一家新的分店"
+        },
+        {
+            "word":"a branch of biology",
+            "exp":"生物学的一个分支"
+        },
+        {
+            "word":"brandish a knife",
+            "exp":"挥舞着刀"
+        },
+        {
+            "word":"need bravado to show his strength",
+            "exp":"用虚张声势来表现他的强力"
+        },
+        {
+            "word":"a brazen public liar",
+            "exp":"厚颜无耻欺骗公众的人"
+        },
+        {
+            "word":"breach the law",
+            "exp":"违反法律"
+        },
+        {
+            "word":"fear a breach between the couple",
+            "exp":"害怕夫妻之间感情破裂"
+        },
+        {
+            "word":"make a scientific breakthrough",
+            "exp":"取得科学上的突破"
+        },
+        {
+            "word":"dogs bred to fight",
+            "exp":"饲养用来战斗的狗"
+        },
+        {
+            "word":"breed racial hate",
+            "exp":"灌输民族仇恨"
+        },
+        {
+            "word":"the brevity of the holidays",
+            "exp":"假期的短暂"
+        },
+        {
+            "word":"the brevity of a business letter",
+            "exp":"商务信函的简洁"
+        },
+        {
+            "word":"bribe the teacher for better grades",
+            "exp":"贿赂老师以得到更高的分数"
+        },
+        {
+            "word":"parents’ old  bromide",
+            "exp":"爸妈老套的安慰"
+        },
+        {
+            "word":"brood over her lost husband",
+            "exp":"想念她失踪的丈夫"
+        },
+        {
+            "word":"the brunt of a financial crisis",
+            "exp":"金融危机的冲击"
+        },
+        {
+            "word":"her brusque refusal",
+            "exp":"唐突的拒绝"
+        },
+        {
+            "word":"a brutal murder",
+            "exp":"残忍的杀手"
+        },
+        {
+            "word":"soap bubbles",
+            "exp":"肥皂泡"
+        },
+        {
+            "word":"buck the customs",
+            "exp":"打破传统"
+        },
+        {
+            "word":"the bucolic beauty of her village",
+            "exp":"她的村落的田园美景"
+        },
+        {
+            "word":"the bud of a new idea",
+            "exp":"新思想的萌芽"
+        },
+        {
+            "word":"His tight living budget",
+            "exp":"紧张的生活预算"
+        },
+        {
+            "word":"The bulk of an aircraft carrier",
+            "exp":"庞然大物的航母"
+        },
+        {
+            "word":"bulky elephants",
+            "exp":"笨重的大象"
+        },
+        {
+            "word":"Bully his classmates",
+            "exp":"欺负同学"
+        },
+        {
+            "word":"Bungle a date with a nice girl",
+            "exp":"搞砸了一次与漂亮女孩的约会"
+        },
+        {
+            "word":"Buoyed up by a sense of hope",
+            "exp":"因感到希望受到鼓舞"
+        },
+        {
+            "word":"A buoyant dancer",
+            "exp":"快活的舞者"
+        },
+        {
+            "word":"A buoyant market",
+            "exp":"繁荣的市场"
+        },
+        {
+            "word":"A burdensome debt",
+            "exp":"沉重的债务"
+        },
+        {
+            "word":"Complain about the bureaucracy of the government",
+            "exp":"投诉政府的官僚主义"
+        },
+        {
+            "word":"burgeoning urban population",
+            "exp":"剧增的城市人口"
+        },
+        {
+            "word":"A black comic burlesque",
+            "exp":"黑色幽默的讽刺作品"
+        },
+        {
+            "word":"Burrow into her heap of cover",
+            "exp":"钻进他厚厚的被窝"
+        },
+        {
+            "word":"Buttress his argument",
+            "exp":"支持他的论点"
+        },
+        {
+            "word":"Her bygones memories",
+            "exp":"过往的回忆"
+        },
+        {
+            "word":"Bypass the legal process",
+            "exp":"绕过法律程序"
+        },
+        {
+            "word":"Draw a crowd of bystanders",
+            "exp":"吸引了一群旁观者"
+        },
+        {
+            "word":"The Byzantine office politics",
+            "exp":"错综复杂的办公室政治"
+        },
+        {
+            "word":"first class cabin",
+            "exp":"头等舱"
+        },
+        {
+            "word":"a log cabin in the wilderness",
+            "exp":"野外的小木屋"
+        },
+        {
+            "word":"the cacophony of a busy street",
+            "exp":"忙碌的街上的喧嚣"
+        },
+        {
+            "word":"the cadaverous faces of slaves",
+            "exp":"奴隶们苍白瘦削的脸"
+        },
+        {
+            "word":"Cajoled by men with sweet tongue",
+            "exp":"被甜言蜜语的男人骗了"
+        },
+        {
+            "word":"The calamity of war",
+            "exp":"战争的灾难"
+        },
+        {
+            "word":"His calculated lie",
+            "exp":"蓄意撒谎"
+        },
+        {
+            "word":"Calculating criminals",
+            "exp":"精于计算的罪犯"
+        },
+        {
+            "word":"His caliber of analyzing situations",
+            "exp":"分析情况的能力"
+        },
+        {
+            "word":"Calibrate the body weight scale",
+            "exp":"校准称体重的秤"
+        },
+        {
+            "word":"His callous attitude towards customers",
+            "exp":"对顾客的冷漠态度"
+        },
+        {
+            "word":"A callow youth",
+            "exp":"稚嫩的小毛孩儿"
+        },
+        {
+            "word":"Your calumny against the great",
+            "exp":"对伟人恶言重中伤"
+        },
+        {
+            "word":"The camaraderie in the army",
+            "exp":"军中的同志情谊"
+        },
+        {
+            "word":"Camouflage her true feelings",
+            "exp":"掩饰他内心的情感"
+        },
+        {
+            "word":"Candid about his weakness",
+            "exp":"对他的缺点直言不讳"
+        },
+        {
+            "word":"Touched by his candor",
+            "exp":"被他的坦诚打动"
+        },
+        {
+            "word":"A candid photograph of people in everyday life",
+            "exp":"抓拍人们日常生活的照片"
+        },
+        {
+            "word":"A candidate for the interview",
+            "exp":"面试的候选人"
+        },
+        {
+            "word":"presidential candidacy",
+            "exp":"总统候选人的资格"
+        },
+        {
+            "word":"cantankerous buyers",
+            "exp":"爱挑刺的买家"
+        },
+        {
+            "word":"new model canvas shoes",
+            "exp":"新款帆布鞋"
+        },
+        {
+            "word":"his creative capability",
+            "exp":"创新能力"
+        },
+        {
+            "word":"a capable team leader",
+            "exp":"有才干的团队领袖"
+        },
+        {
+            "word":"Lose the capacity of love",
+            "exp":"失去了爱的能力"
+        },
+        {
+            "word":"The capacity of hard drive",
+            "exp":"电脑硬盘的容量"
+        },
+        {
+            "word":"Make capital investment in small businesses",
+            "exp":"利用资本投资一些小企业"
+        },
+        {
+            "word":"capital crimes",
+            "exp":"死罪"
+        },
+        {
+            "word":"Capitalist economic theory",
+            "exp":"资本主义的经济学理论"
+        },
+        {
+            "word":"Countries of capitalism",
+            "exp":"资本主义国家"
+        },
+        {
+            "word":"The photographer’s capricious mind",
+            "exp":"摄影师反复无常的想法"
+        },
+        {
+            "word":"her emotional caprice",
+            "exp":"她喜怒无常"
+        },
+        {
+            "word":"A captious customer",
+            "exp":"一个找茬儿的顾客"
+        },
+        {
+            "word":"Rescue the captive soldiers",
+            "exp":"营救被俘的战士"
+        },
+        {
+            "word":"Captivate the young admirers",
+            "exp":"吸引着年轻的仰慕者"
+        },
+        {
+            "word":"Capture a spy",
+            "exp":"俘获一个间谍"
+        },
+        {
+            "word":"Capture her heart",
+            "exp":"捕获她的芳心"
+        },
+        {
+            "word":"Capture the beauty of life",
+            "exp":"捕获生活中的美"
+        },
+        {
+            "word":"Break the cardinal fashion rules",
+            "exp":"违反时尚的主要原则"
+        },
+        {
+            "word":"a truck careering down the hill",
+            "exp":"货车冲下山去"
+        },
+        {
+            "word":"carefree driving in the countryside",
+            "exp":"在乡间畅快地驾驶"
+        },
+        {
+            "word":"large carnivorous animals",
+            "exp":"大型食肉动物"
+        },
+        {
+            "word":"carp about school meals",
+            "exp":"对学校伙食说三道四"
+        },
+        {
+            "word":"The film cast",
+            "exp":"电影的演员整容"
+        },
+        {
+            "word":"Cast food to birds",
+            "exp":"投食喂鸟"
+        },
+        {
+            "word":"An academic cast of mind",
+            "exp":"学术型的思想"
+        },
+        {
+            "word":"Castigate long-haired students",
+            "exp":"训斥留长发的学生"
+        },
+        {
+            "word":"Wear a casual T-Shirt",
+            "exp":"身着一件休闲T恤衫"
+        },
+        {
+            "word":"Cause heavy casualties",
+            "exp":"致使人员伤亡惨重"
+        },
+        {
+            "word":"A flood cataclysm",
+            "exp":"大洪灾"
+        },
+        {
+            "word":"A catalog of his book collection",
+            "exp":"他藏书的目录"
+        },
+        {
+            "word":"A catalyst for school reform",
+            "exp":"刺激学校改革的因素"
+        },
+        {
+            "word":"Catapult him for further success",
+            "exp":"迅速取得更大的成功"
+        },
+        {
+            "word":"Avoid an environmental catastrophe",
+            "exp":"避免一场环境灾难"
+        },
+        {
+            "word":"draw a categorical conclusion",
+            "exp":"得出确定无疑的结论"
+        },
+        {
+            "word":"Categorically deny the debt",
+            "exp":"明确地否认负债"
+        },
+        {
+            "word":"Categorize children’ mental problems",
+            "exp":"把孩子的心理问题分类"
+        },
+        {
+            "word":"Fall into two categories",
+            "exp":"分成两类"
+        },
+        {
+            "word":"Cater to customers’ taste",
+            "exp":"迎合顾客的口味"
+        },
+        {
+            "word":"Pray in St. Pray cathedral",
+            "exp":"在圣保罗大教堂祷告"
+        },
+        {
+            "word":"A man of catholic tastes",
+            "exp":"爱好广泛的人"
+        },
+        {
+            "word":"Engage in causal analysis",
+            "exp":"进行因果分析"
+        },
+        {
+            "word":"Caustic chemicals",
+            "exp":"腐蚀性化学物质"
+        },
+        {
+            "word":"A cautious nurse",
+            "exp":"小心谨慎的护士"
+        },
+        {
+            "word":"Take cavalier attitude to his safety",
+            "exp":"不顾自身安危"
+        },
+        {
+            "word":"Cease fire",
+            "exp":"停火"
+        },
+        {
+            "word":"cessation of business",
+            "exp":"停业"
+        },
+        {
+            "word":"ceaseless religious fights",
+            "exp":"无休止的宗教冲突"
+        },
+        {
+            "word":"put a ceiling on house price",
+            "exp":"规定房价的上限"
+        },
+        {
+            "word":"celebrate a brave little girl",
+            "exp":"赞赏勇气可嘉的小女孩儿"
+        },
+        {
+            "word":"have a celebratory dinner",
+            "exp":"操办一次庆功"
+        },
+        {
+            "word":"A celebrated political leader",
+            "exp":"著名的政治领导人"
+        },
+        {
+            "word":"A celebrity of entertainment",
+            "exp":"娱乐界名流"
+        },
+        {
+            "word":"Celestial bosies in the universe",
+            "exp":"宇宙中的天体"
+        },
+        {
+            "word":"Readers touched with a celestial joy",
+            "exp":"被极致的快乐打动的读者们"
+        },
+        {
+            "word":"Choose to marry or stay celibate",
+            "exp":"要么结婚要么禁欲独身"
+        },
+        {
+            "word":"A girl playing cello",
+            "exp":"拉大提琴的女孩"
+        },
+        {
+            "word":"Cement a diplomatic relationship",
+            "exp":"巩固外交关系"
+        },
+        {
+            "word":"Internet censorship by the government",
+            "exp":"政府审查互联网"
+        },
+        {
+            "word":"Censure British violations of international law",
+            "exp":"谴责英国违反国际法"
+        },
+        {
+            "word":"A nationwide census",
+            "exp":"全国人口普查"
+        }
+    ],
     "list12":[
         {
             "word":"The distinction between art and entertainment",
@@ -1236,6 +1810,10 @@
         {
             "word":"The essence of an achievement",
             "exp":"成功的精髓"
+        },
+        {
+            "word":"An island engulfed by the sea",
+            "exp":"被大海吞没的小岛"
         }
     ]
 }

@@ -22,7 +22,7 @@
                 <button class="button" onclick="nextWord()">下一个</button>
                 <p id="result">结果</p> 
 
-                <button class="button" id="settingsBtn" onclick="Settings()">Settings</button>
+                <button class="button" id="settingsBtn" onclick="openDrawer()">Settings</button>
             </div>
         </div>
 
@@ -34,67 +34,40 @@
                 <button class="button" onclick="applySettings()">完成</button>
             </div>
 
-            <form action="index_submit" method="get" accept-charset="utf-8">
-               <label>
-                   <input type="radio" id="for"/> 顺序模式
-                   <input type="radio" id="random"/> 随机模式
-               </label> 
-               <p></p>
+            <form action="index_submit" method="get" accept-charset="utf-8" class="config">
+                <p>
+                    <label> <input type="radio" name="mode" id="modeSelect0" value="0"/> 顺序模式</label>
+                    <label> <input type="radio" name="mode" id="modeSelect1" value="1"/> 随机模式</label>
+                </p>
 
-               <label>
-                    <select name="bookSelect" id="bookSelect" multiple size="1">
+                <label>
+                    <select name="bookSelect" id="bookSelect">
                         <option value="book1">book1</option>
                         <option value="book2">book2</option>
                     </select>
-
-               </label>
+                </label>
 
                <p></p>
                <label id="listLabel" class="container">
-                   <li>
-                       <input type="checkbox" name="list1" id="list1"> list1
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list2" id="list2"> list2
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list3" id="list3"> list3
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list4" id="list4"> list4
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list5" id="list5"> list5
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list6" id="list6"> list6
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list7" id="list7"> list7
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list8" id="list8"> list8
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list9" id="list9"> list9
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list10" id="list10"> list10
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list11" id="list11"> list11
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list12" id="list12"> list12
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list13" id="list13"> list13
-                   </li>
-                   <li>
-                       <input type="checkbox" name="list14" id="list14"> list14
-                   </li>
+                   <label> <li> <input type="checkbox" name="list1" id="list1"> list1 </li> </label>
+                   <label> <li> <input type="checkbox" name="list2" id="list2"> list2 </li> </label>
+                   <label> <li> <input type="checkbox" name="list3" id="list3"> list3 </li> </label>
+                   <label> <li> <input type="checkbox" name="list4" id="list4"> list4 </li> </label>
+                   <label> <li> <input type="checkbox" name="list5" id="list5"> list5 </li> </label>
+                   <label> <li> <input type="checkbox" name="list6" id="list6"> list6 </li> </label>
+                   <label> <li> <input type="checkbox" name="list7" id="list7"> list7 </li> </label>
+                   <label> <li> <input type="checkbox" name="list8" id="list8"> list8 </li> </label>
+                   <label> <li> <input type="checkbox" name="list9" id="list9"> list9 </li> </label>
+                   <label> <li> <input type="checkbox" name="list10" id="list10"> list10 </li> </label>
+                   <label> <li> <input type="checkbox" name="list11" id="list11"> list11 </li> </label>
+                   <label> <li> <input type="checkbox" name="list12" id="list12"> list12 </li> </label>
+                   <label> <li> <input type="checkbox" name="list13" id="list13"> list13 </li> </label>
+                   <label> <li> <input type="checkbox" name="list14" id="list14"> list14 </li> </label>
                </label>
             </form>
+            <div class="drawerContent">
+                <button class="button" onclick="closeDrawer()">取消</button>
+            </div>
         </div>
 
     <script src="script.js" charset="utf-8"></script>
