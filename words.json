@@ -1815,5 +1815,615 @@
             "word":"An island engulfed by the sea",
             "exp":"被大海吞没的小岛"
         }
+    ],
+    "list14":[
+        {
+            "word":"An essential condition for economic progress",
+            "exp":"积极发展的核心条件"
+        },
+        {
+            "word":"Esteem your teachers",
+            "exp":"尊重老师"
+        },
+        {
+            "word":"Estimate of the possibility of social change",
+            "exp":"估算社会变化的可能性"
+        },
+        {
+            "word":"Estimate the value of the antiques",
+            "exp":"估算古董的价值"
+        },
+        {
+            "word":"A child estranged from his family",
+            "exp":"与家庭疏远的孩子"
+        },
+        {
+            "word":"An eternal truth",
+            "exp":"永恒的真理"
+        },
+        {
+            "word":"Work ethics of business",
+            "exp":"商业的职业道德"
+        },
+        {
+            "word":"Follow the ethical standard",
+            "exp":"遵守道德规范"
+        },
+        {
+            "word":"Chinese ethnic dress",
+            "exp":"中国的民族服装"
+        },
+        {
+            "word":"Eulogize his courage",
+            "exp":"称赞他的勇敢"
+        },
+        {
+            "word":"An euphemistic criticism",
+            "exp":"委婉的批评"
+        },
+        {
+            "word":"An euphonious music",
+            "exp":"悦耳的音乐"
+        },
+        {
+            "word":"Euphoria of love",
+            "exp":"爱的喜悦"
+        },
+        {
+            "word":"Evacuate the residents from the flooded areas",
+            "exp":"疏散洪水灾区的居民"
+        },
+        {
+            "word":"Evade tax",
+            "exp":"逃税"
+        },
+        {
+            "word":"Love evades her",
+            "exp":"错过真爱"
+        },
+        {
+            "word":"An evasive answer",
+            "exp":"含糊其辞的回答"
+        },
+        {
+            "word":"A standard for school evaluation",
+            "exp":"学校评估的标准"
+        },
+        {
+            "word":"The evanescent beauty of a sunset",
+            "exp":"日落消逝的美"
+        },
+        {
+            "word":"Evaporate the rainwater",
+            "exp":"雨水蒸发了"
+        },
+        {
+            "word":"His evaporating passion",
+            "exp":"热情逐渐消退"
+        },
+        {
+            "word":"Evenhanded judgement",
+            "exp":"公正的判断"
+        },
+        {
+            "word":"The eventual result",
+            "exp":"最终结果"
+        },
+        {
+            "word":"Prepare for every eventuality",
+            "exp":"为每一种可能都做好准备"
+        },
+        {
+            "word":"Evergreen bushes",
+            "exp":"常绿灌木"
+        },
+        {
+            "word":"Its existence evidenced by its effect",
+            "exp":"其影响表明了它的客观存在"
+        },
+        {
+            "word":"Evoke memories of his childhood",
+            "exp":"唤起儿时回忆"
+        },
+        {
+            "word":"Her love evidenced by forgiveness",
+            "exp":"因爱而原谅（表明了她的爱）"
+        },
+        {
+            "word":"The evocative power of cinema",
+            "exp":"引起共鸣的电影"
+        },
+        {
+            "word":"Evolve its business from coffee beans",
+            "exp":"从咖啡豆的业务开始逐步发展"
+        },
+        {
+            "word":"The theory of evolution by natural selection",
+            "exp":"自然选择的结果进化论"
+        },
+        {
+            "word":"The evolutionary process of human society",
+            "exp":"人类社会的进化过程"
+        },
+        {
+            "word":"Exacerbate environmental problems",
+            "exp":"加剧了环境问题"
+        },
+        {
+            "word":"Exact a promise from her",
+            "exp":"得到了她的许诺"
+        },
+        {
+            "word":"Exact a heavy cost on industry",
+            "exp":"让工业带来巨大的代价"
+        },
+        {
+            "word":"Exaggerate the importance of his job",
+            "exp":"夸大他工作的重要性"
+        },
+        {
+            "word":"Exalt the leader as the role model",
+            "exp":"赞扬领导是他们的楷模"
+        },
+        {
+            "word":"Exasperate me by their endless question",
+            "exp":"无休止的提问让我恼火"
+        },
+        {
+            "word":"Excavate the buried treasure",
+            "exp":"挖掘埋葬的宝藏"
+        },
+        {
+            "word":"Exceed the speed limit",
+            "exp":"超速"
+        },
+        {
+            "word":"Exceed the limit of 150 words",
+            "exp":"超过150词的限制"
+        },
+        {
+            "word":"An exceedingly difficult task",
+            "exp":"一项极其艰巨的任务"
+        },
+        {
+            "word":"Take in an excess of fat",
+            "exp":"摄入过量的脂肪"
+        },
+        {
+            "word":"Use excessive amounts of body energy",
+            "exp":"用了过量的身体能量"
+        },
+        {
+            "word":"Compete to excel in basketball",
+            "exp":"在竞争中追求卓越的球技"
+        },
+        {
+            "word":"No exceptions to the rule",
+            "exp":"规矩不容许例外"
+        },
+        {
+            "word":"Make an exceptionable profit",
+            "exp":"发不义之财（招来指责的利润）"
+        },
+        {
+            "word":"His exceptional talent in math",
+            "exp":"非凡的数学天赋"
+        },
+        {
+            "word":"Read an excerpt from the book",
+            "exp":"读一下那本书的摘录"
+        },
+        {
+            "word":"Excise tax on medical devices",
+            "exp":"对医疗器械免税（去除税收）"
+        },
+        {
+            "word":"Exclaim at how cute the puppies are",
+            "exp":"惊呼小狗的可爱"
+        },
+        {
+            "word":"Exclaim with surprise",
+            "exp":"惊讶地呼喊"
+        },
+        {
+            "word":"Exclude women from political life",
+            "exp":"把女性排除在政治生活之外"
+        },
+        {
+            "word":"The most exclusive club",
+            "exp":"极为奢华的会所"
+        },
+        {
+            "word":"His excruciating back pain",
+            "exp":"极其痛苦的背疼"
+        },
+        {
+            "word":"Evidence to exculpate the prisoner",
+            "exp":"为囚犯洗白的证据"
+        },
+        {
+            "word":"Spring excursion to the zoo",
+            "exp":"去动物园春游"
+        },
+        {
+            "word":"Excursion into new markets",
+            "exp":"涉猎新的市场"
+        },
+        {
+            "word":"His execrable cruelty",
+            "exp":"他恶劣的暴行"
+        },
+        {
+            "word":"Execute his soul",
+            "exp":"戕害了他的灵魂"
+        },
+        {
+            "word":"Execute a plan",
+            "exp":"贯彻计划"
+        },
+        {
+            "word":"An exemplar of successful women",
+            "exp":"成功女性的典范"
+        },
+        {
+            "word":"His exemplary performance",
+            "exp":"他堪称典范的表演"
+        },
+        {
+            "word":"Exemplary killing of wrongdoers",
+            "exp":"杀鸡儆猴（杀罪犯以儆效尤）"
+        },
+        {
+            "word":"Exemplify the true character of this great nation",
+            "exp":"典型地体现了这个伟大国度真正的特点"
+        },
+        {
+            "word":"Goods exempt from duty",
+            "exp":"免税商品"
+        },
+        {
+            "word":"Exert parental control over computer use",
+            "exp":"对孩子使用电脑加以管制"
+        },
+        {
+            "word":"Exert all of his strength",
+            "exp":"竭尽全力"
+        },
+        {
+            "word":"Exert a bad influence on his students",
+            "exp":"对学生产生了不良影响"
+        },
+        {
+            "word":"Feel exhausted by working overtime",
+            "exp":"因加班感到精疲力竭"
+        },
+        {
+            "word":"Exhaust the resource",
+            "exp":"耗尽资源"
+        },
+        {
+            "word":"Exhaust the subject",
+            "exp":"事无巨细的讨论了这个话题"
+        },
+        {
+            "word":"Car exhaust gases",
+            "exp":"汽车尾气"
+        },
+        {
+            "word":"An exhaustive research on the business environment",
+            "exp":"关于商业环境的全面研究"
+        },
+        {
+            "word":"Exhibit no fear",
+            "exp":"（表现）无畏"
+        },
+        {
+            "word":"Exhibit her collection of shoes",
+            "exp":"展示她鞋的收藏"
+        },
+        {
+            "word":"Wealth exhibitionism",
+            "exp":"炫富"
+        },
+        {
+            "word":"Exhilarate the audience with a joke",
+            "exp":"用笑话取悦观众"
+        },
+        {
+            "word":"Exhorts her children to complete the work",
+            "exp":"督促她完成工作"
+        },
+        {
+            "word":"Exonerate people wrongfully charged with crimes",
+            "exp":"为蒙冤的人脱罪"
+        },
+        {
+            "word":"Collect exorbitant taxes",
+            "exp":"收取过高的税收"
+        },
+        {
+            "word":"Exotic beautiful girls",
+            "exp":"异国风情的美丽女孩儿"
+        },
+        {
+            "word":"Expand the size of the image",
+            "exp":"放大图像"
+        },
+        {
+            "word":"Expand his business",
+            "exp":"发展业务"
+        },
+        {
+            "word":"Expand on his blueprint",
+            "exp":"阐述他的蓝图"
+        },
+        {
+            "word":"The expansive urban area",
+            "exp":"广阔的市区"
+        },
+        {
+            "word":"An expansive interviewee",
+            "exp":"健谈的面试者"
+        },
+        {
+            "word":"Expansive discussions on marketing",
+            "exp":"关于市场营销的拓展性讨论"
+        },
+        {
+            "word":"Expedient solutions for saving face",
+            "exp":"为挽回颜面的权宜之计"
+        },
+        {
+            "word":"Expedite economic reforms",
+            "exp":"加速经济改革"
+        },
+        {
+            "word":"An expedition to Amazon jungle",
+            "exp":"远征亚马逊森林"
+        },
+        {
+            "word":"Expeditious application process",
+            "exp":"快捷的申请过程"
+        },
+        {
+            "word":"Expend her income on luxuries",
+            "exp":"把收入花在奢侈品上"
+        },
+        {
+            "word":"Expendable resource",
+            "exp":"可消耗的资源"
+        },
+        {
+            "word":"Authorities lacking expertise",
+            "exp":"外行的领导"
+        },
+        {
+            "word":"When his visitor’s visa expires",
+            "exp":"旅游签证到期的时候"
+        },
+        {
+            "word":"Explicate the hidden reason",
+            "exp":"介绍隐藏的缘由"
+        },
+        {
+            "word":"Explicit statement of team leader’s duty",
+            "exp":"明确的声明团队领导的责任"
+        },
+        {
+            "word":"Exploit cheap labors",
+            "exp":"剥削廉价劳动力"
+        },
+        {
+            "word":"Exploit new opportunities",
+            "exp":"利用新机会"
+        },
+        {
+            "word":"Exploit underground water",
+            "exp":"开采地下水"
+        },
+        {
+            "word":"His wartime exploits",
+            "exp":"他战斗的英勇事迹"
+        },
+        {
+            "word":"The exploitive use of forests",
+            "exp":"对森林掠夺性的开发"
+        },
+        {
+            "word":"Ignite explosive chemicals",
+            "exp":"点燃易爆化学品"
+        },
+        {
+            "word":"The explosive growth of population",
+            "exp":"人口的剧增"
+        },
+        {
+            "word":"Expose his hidden past",
+            "exp":"揭露了他不为人知的过去"
+        },
+        {
+            "word":"A child exposed to danger",
+            "exp":"遇到危险的孩子"
+        },
+        {
+            "word":"A teen exposed to tech in early life",
+            "exp":"较早接触技术的年轻人"
+        },
+        {
+            "word":"A clear exposition of his ideas",
+            "exp":"对他的想法较为清晰的阐述"
+        },
+        {
+            "word":"2010 Shanghai World Exposition",
+            "exp":"2010上海世博会"
+        },
+        {
+            "word":"Expounds the virtues of a healthy diet",
+            "exp":"详述健康膳食的好处"
+        },
+        {
+            "word":"Expressly reject his requirement",
+            "exp":"明确地回绝了他的要求"
+        },
+        {
+            "word":"An electric bike expressly designed for stylish city women",
+            "exp":"专为时尚的都市女性设计的电动自行车"
+        },
+        {
+            "word":"Expressive gestures in dance",
+            "exp":"富于表现力的舞姿"
+        },
+        {
+            "word":"Expropriate land from farmers",
+            "exp":"征用农民的土地"
+        },
+        {
+            "word":"Expunge unwanted software",
+            "exp":"删除了多余的软件"
+        },
+        {
+            "word":"Exquisite wedding dresses",
+            "exp":"美极了的结婚礼服"
+        },
+        {
+            "word":"Extant languages of the world",
+            "exp":"世界现存的语言"
+        },
+        {
+            "word":"Extemporize a talk show",
+            "exp":"即兴表演脱口秀"
+        },
+        {
+            "word":"Extemporaneous public speaking",
+            "exp":"即兴公开讲话"
+        },
+        {
+            "word":"Extend a warm welcome",
+            "exp":"予以热烈的欢迎"
+        },
+        {
+            "word":"Extend a thumb",
+            "exp":"伸出拇指"
+        },
+        {
+            "word":"Extenuate his shameful deed",
+            "exp":"为他可耻的行径开脱"
+        },
+        {
+            "word":"Exterminate the slavery",
+            "exp":"消灭奴隶制"
+        },
+        {
+            "word":"External signs of a disease",
+            "exp":"疾病的外部迹象"
+        },
+        {
+            "word":"The exterior wall",
+            "exp":"外墙"
+        },
+        {
+            "word":"Extinct dinosaurs",
+            "exp":"灭绝的恐龙"
+        },
+        {
+            "word":"An ancient civilization",
+            "exp":"陨落的古代文明"
+        },
+        {
+            "word":"A dream to extirpate sadness",
+            "exp":"消除悲伤的梦想"
+        },
+        {
+            "word":"Extol his selflessness",
+            "exp":"赞颂他的无私"
+        },
+        {
+            "word":"Extract lemon juice",
+            "exp":"榨柠檬汁"
+        },
+        {
+            "word":"Extract useful information from database",
+            "exp":"从数据中提取有用的信息"
+        },
+        {
+            "word":"The first prisoner to be extradited",
+            "exp":"首例将被引渡的政治犯"
+        },
+        {
+            "word":"Stand an extraneous pressure",
+            "exp":"承受外部压力"
+        },
+        {
+            "word":"His extraordinary skills",
+            "exp":"非比寻常的技艺"
+        },
+        {
+            "word":"An extraordinary discovery",
+            "exp":"不同寻常的发现"
+        },
+        {
+            "word":"Extrapolate the trend of stock market",
+            "exp":"推测股市的走向"
+        },
+        {
+            "word":"Her extravagant lifestyle",
+            "exp":"她铺张浪费的生活作风"
+        },
+        {
+            "word":"Her extravagant fantasy",
+            "exp":"离谱的幻想"
+        },
+        {
+            "word":"Endure the extremity of physical pain",
+            "exp":"忍受极端的身体上的疼痛"
+        },
+        {
+            "word":"Extricate herself from financial crisis",
+            "exp":"从财政危机中脱身"
+        },
+        {
+            "word":"Analyze extrinsic factors",
+            "exp":"分析外部因素"
+        },
+        {
+            "word":"An extroverted young girl",
+            "exp":"外向的年轻女孩儿"
+        },
+        {
+            "word":"With her exuberance of youth",
+            "exp":"带着年轻的生气"
+        },
+        {
+            "word":"Exude the charm of a fine woman",
+            "exp":"散发出优雅女性的魅力"
+        },
+        {
+            "word":"Exult in their victory of the war",
+            "exp":"战胜的欢欣鼓舞"
+        },
+        {
+            "word":"An exultant cheer of success",
+            "exp":"欢欣鼓舞地呼喊成功"
+        },
+        {
+            "word":"A t-shirt of cotton fabric",
+            "exp":"棉质的T恤衫"
+        },
+        {
+            "word":"The fabric of a society",
+            "exp":"社会的构架"
+        },
+        {
+            "word":"A fabricated excuse",
+            "exp":"编造的借口"
+        },
+        {
+            "word":"A fabulous actress",
+            "exp":"惊艳的女演员"
+        },
+        {
+            "word":"A small facet of the whole picture",
+            "exp":"全貌的一个小的方面"
+        }
     ]
 }
